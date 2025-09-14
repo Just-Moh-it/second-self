@@ -1,0 +1,31 @@
+{
+	"name": "@second-self/websocket-server",
+	"version": "1.0.0",
+	"description": "WebSocket server with TypeScript",
+	"main": "src/server.ts",
+	"scripts": {
+		"build": "bun build src/server.ts --outdir dist --target node",
+		"start": "bun src/server.ts",
+		"dev": "bun --watch src/server.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@openai/agents": "^0.0.17",
+		"@types/node": "^22.0.0",
+		"@types/ws": "^8.5.12",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.2",
+		"httpdispatcher": "^2.2.0",
+		"twilio": "^5.8.0",
+		"ws": "^8.18.0"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.17",
+		"@types/dotenv": "^8.2.0",
+		"@types/express": "^5.0.0"
+	}
+}

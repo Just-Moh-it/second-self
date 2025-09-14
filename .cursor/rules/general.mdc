@@ -1,0 +1,7 @@
+---
+alwaysApply: true
+---
+
+For tailwind errors such as not the right ordering, etc., please don't try and fix it manually. The linter would fix it automatically on save by the user, so no point in doing it manually.
+
+Also, prefer if statements etc. with {} blocks as compared to being inline

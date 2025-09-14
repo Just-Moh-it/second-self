@@ -57,7 +57,6 @@ function RootDocument() {
 						<Loader />
 					) : (
 						<SidebarProvider>
-							<AppSidebar />
 							<SidebarInset>
 								<Outlet />
 							</SidebarInset>
